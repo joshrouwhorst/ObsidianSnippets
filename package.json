@@ -1,0 +1,25 @@
+{
+  "name": "obsidiansnippets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "npm i -g sass && npm i",
+    "compile": "sass ./sass:. --no-source-map",
+    "clear": "rimraf ./*.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshrouwhorst/ObsidianSnippets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshrouwhorst/ObsidianSnippets/issues"
+  },
+  "homepage": "https://github.com/joshrouwhorst/ObsidianSnippets#readme",
+  "devDependencies": {
+    "rimraf": "^5.0.1",
+    "sass": "^1.63.6"
+  }
+}
