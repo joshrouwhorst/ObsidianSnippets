@@ -1,38 +1,44 @@
 :root {
   --default-font: 'Poppins', 'Helvetica', 'Arial', sans-serif;
-  --white: #dfeefa;
-  --gray: rgb(167, 182, 192);
-  --dark-gray: rgb(110, 123, 133);
-  --black: rgb(26, 25, 32);
+  --jr-blue: #289df1;
+  --jr-indigo: #813efd;
+  --jr-violet: #c800ff;
+  --jr-red: #e41919;
+  --jr-pink: #ff00a6;
+  --jr-orange: #f2a343;
+  --jr-yellow: #e1e819;
+  --jr-green: #29de29;
+  --jr-dark-green: #1a9c1a;
+  --jr-black: #000000;
+  --jr-gray2: #222222;
+  --jr-gray8: #888888;
+  --jr-grayA: #AAAAAA;
+  --jr-grayD: #DDDDDD;
+  --jr-white: #FFFFFF;
 
-  --green: rgb(2, 211, 47);
-  --blue: rgb(0, 170, 248);
-  --teal: rgb(0, 255, 255);
-  --slate-blue: rgb(111, 166, 191);
-  --yellow: rgb(255, 255, 0);
-  --pink: rgb(253, 148, 148);
-  --magenta: rgb(255, 0, 255);
-  --red: rgb(235, 45, 86);
-  --dark-red: rgb(141, 10, 53);
-  --orange: rgb(255, 102, 0);
-
-  --h1-color: var(--blue);
-  --h2-color: var(--magenta);
-  --h3-color: var(--teal);
-  --h4-color: var(--yellow);
-  --h5-color: var(--green);
-  --h6-color: var(--white);
+  --title-color: var(--jr-blue);
+  --h1-color: var(--jr-indigo);
+  --h2-color: var(--jr-violet);
+  --h3-color: var(--jr-red);
+  --h4-color: var(--jr-orange);
+  --h5-color: var(--jr-yellow);
+  --h6-color: var(--jr-green);
 }
 
 body {
-  --titlebar-text-color-focused: var(--pink);
+  --titlebar-text-color-focused: var(--jr-pink);
 }
 
 .workspace-tab-header.is-active {
-  color: var(--pink);
+  color: var(--jr-pink);
   font-weight: bolder;
 }
 
+.inline-title {
+  color: var(--jr-blue);
+}
+
+.HyperMD-header-1,
 .cm-header-1,
 h1 {
   color: var(--h1-color);
@@ -40,39 +46,44 @@ h1 {
   -webkit-text-stroke: 2px var(--dark-blue);
 }
 
+.HyperMD-header-2,
 .cm-header-2,
 h2 {
   color: var(--h2-color);
   font-size: 1.8em;
 }
 
+.HyperMD-header-3,
 .cm-header-3,
 h3 {
   color: var(--h3-color);
 }
 
+.HyperMD-header-4,
 .cm-header-4,
 h4 {
   color: var(--h4-color);
 }
 
+.HyperMD-header-5,
 .cm-header-5,
 h5 {
   color: var(--h5-color);
 }
 
+.HyperMD-header-6,
 .cm-header-6,
 h6 {
   color: var(--h6-color);
 }
 
 .cm-s-obsidian span.cm-inline-code {
-  color: var(--green);
+  color: var(--jr-green);
   font-weight: bold;
 }
 
 .cm-s-obsidian span.cm-inline-code:not(.cm-formatting):not(.cm-hmd-indented-code):not(.obsidian-search-match-highlight) {
-  background-color: var(--black);
+  background-color: var(--jr-black);
   padding: 0 4px;
   border-radius: 4px;
   /*border: 1px solid var(--green);*/
@@ -80,32 +91,32 @@ h6 {
 
 .cm-strong,
 strong {
-  color: var(--pink);
+  color: var(--jr-pink);
 }
 
 .cm-strikethrough {
-  color: var(--red);
+  color: var(--jr-red);
 }
 
 .cm-em,
 em {
-  color: var(--blue);
+  color: var(--jr-blue);
 }
 
 .markdown-source-view.mod-cm6 .HyperMD-task-line[data-task]:not([data-task=" "]) {
-  color: var(--red);
+  color: var(--jr-red);
 }
 
 /* Links */
 
 .cm-s-obsidian span.cm-link,
 .cm-s-obsidian span.cm-hmd-internal-link {
-  color: var(--red);
+  color: var(--jr-red);
 }
 
 .cm-s-obsidian span.cm-link .is-unresolved,
 .cm-s-obsidian span.cm-hmd-internal-link .is-unresolved {
-  color: var(--dark-gray);
+  color: var(--jr-gray2);
 }
 
 .markdown-source-view.mod-cm6 .is-unresolved {
@@ -113,5 +124,5 @@ em {
 }
 
 .markdown-source-view.mod-cm6 .is-unresolved .cm-hmd-internal-link {
-  color: var(--dark-gray);
+  color: var(--jr-gray2);
 }
