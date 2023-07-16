@@ -115,14 +115,11 @@ em {
 }
 
 .cm-s-obsidian span.cm-link .is-unresolved,
-.cm-s-obsidian span.cm-hmd-internal-link .is-unresolved {
-  color: var(--jr-gray2);
+.cm-s-obsidian span.cm-hmd-internal-link .is-unresolved,
+.markdown-source-view.mod-cm6 .is-unresolved .cm-hmd-internal-link {
+  color: var(--jr-orange);
 }
 
 .markdown-source-view.mod-cm6 .is-unresolved {
   opacity: 1;
-}
-
-.markdown-source-view.mod-cm6 .is-unresolved .cm-hmd-internal-link {
-  color: var(--jr-gray2);
 }
