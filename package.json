@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "setup": "npm i -g sass && npm i",
+    "push": "npm run compile && git add -A && git commit -m \"$(date)\" && git push",
     "compile": "sass ./sass:. --no-source-map",
     "clear": "rimraf ./*.css"
   },
