@@ -12,9 +12,9 @@
   --jr-black: #000000;
   --jr-gray2: #222222;
   --jr-gray8: #888888;
-  --jr-grayA: #AAAAAA;
-  --jr-grayD: #DDDDDD;
-  --jr-white: #FFFFFF;
+  --jr-grayA: #aaaaaa;
+  --jr-grayD: #dddddd;
+  --jr-white: #ffffff;
   --title-color: var(--jr-blue);
   --h1-color: var(--jr-indigo);
   --h2-color: var(--jr-violet);
@@ -22,6 +22,24 @@
   --h4-color: var(--jr-orange);
   --h5-color: var(--jr-yellow);
   --h6-color: var(--jr-green);
+  --h1-size: 1.5em;
+  --h2-size: 1.3em;
+  --h3-size: 1.3em;
+  --h4-size: 1.1em;
+  --h5-size: 1em;
+  --h6-size: 1em;
+  --h1-style: normal;
+  --h2-style: normal;
+  --h3-style: italic;
+  --h4-style: normal;
+  --h5-style: italic;
+  --h6-style: normal;
+  --h1-weight: bold;
+  --h2-weight: bold;
+  --h3-weight: normal;
+  --h4-weight: bold;
+  --h5-weight: normal;
+  --h6-weight: bold;
 }
 
 body {
@@ -35,45 +53,6 @@ body {
 
 .inline-title {
   color: var(--jr-blue);
-}
-
-.HyperMD-header-1,
-.cm-header-1,
-h1 {
-  color: var(--h1-color);
-  font-size: 2.3em;
-  -webkit-text-stroke: 2px var(--dark-blue);
-}
-
-.HyperMD-header-2,
-.cm-header-2,
-h2 {
-  color: var(--h2-color);
-  font-size: 1.8em;
-}
-
-.HyperMD-header-3,
-.cm-header-3,
-h3 {
-  color: var(--h3-color);
-}
-
-.HyperMD-header-4,
-.cm-header-4,
-h4 {
-  color: var(--h4-color);
-}
-
-.HyperMD-header-5,
-.cm-header-5,
-h5 {
-  color: var(--h5-color);
-}
-
-.HyperMD-header-6,
-.cm-header-6,
-h6 {
-  color: var(--h6-color);
 }
 
 .cm-s-obsidian span.cm-inline-code {
