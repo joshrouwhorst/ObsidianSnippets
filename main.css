@@ -1,4 +1,4 @@
-:root {
+body {
   --default-font: "Poppins", "Helvetica", "Arial", sans-serif;
   --jr-blue: #289df1;
   --jr-indigo: #813efd;
@@ -40,9 +40,6 @@
   --h4-weight: bold;
   --h5-weight: normal;
   --h6-weight: bold;
-}
-
-body {
   --titlebar-text-color-focused: var(--jr-pink);
 }
 
